@@ -1,0 +1,62 @@
+/* CURRENTLY IN: styles/main.css */
+.menuicon {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	margin-right: 10px;
+	background-image: url('../assets/menuicon.svg');
+}
+
+.label-wrapper {
+	float: left;
+}
+
+.full-bleed {
+	width: 100%;
+	height: 100%;
+}
+
+.bxwrap ul {
+	/*overflow: hidden;*/
+}
+
+.bxwrap li {
+	/*width: 100% !important;*/
+}
+
+#menu {
+	display: inline;
+	position: relative;
+	z-index: 9999999999999;
+}
+
+.multilevelpushmenu_wrapper .multilevelpushmenu_inactive {
+	background: transparent;
+}
+
+.multilevelpushmenu_wrapper .levelHolderClass {
+	background: transparent;
+	box-shadow: none;
+}
+
+.multilevelpushmenu_wrapper li:hover {
+	background-color: transparent;
+}
+
+.multilevelpushmenu_wrapper li {
+	border-top: none;
+	text-align: center !important;
+}
+.multilevelpushmenu_wrapper li:last-child {
+	border-bottom: none;
+}
+
+
+.bx-wrapper .bx-viewport{
+	border: 0px;
+	left:0;
+}
+.bx-controls.bx-has-pager.bx-has-controls-direction{
+	display: none;
+}
